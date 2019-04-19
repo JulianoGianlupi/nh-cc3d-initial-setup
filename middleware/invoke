@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C @tool/bin/compucell3d_init_set.sh -t cc3dinitialsetup \
+/usr/bin/invoke_app "$@" -C @tool/bin/compucell3d_init_set.sh -t cc3dinitsetup \
                          -u pyqt5-5.10.1 \
                          -u vtk-6.3.0
